@@ -1,5 +1,6 @@
 # Event-Delivery Pattern: Producer-Consumer
 
+
 In this repository I have implemented a simple example of a producer-consumer pattern using Kafka.
 The producer application creates "Purchase" events that represent some item being purchased. We can change the
 number of partitions by overriding the environment variable KAFKA_PARTITIONS defined in the producer.
