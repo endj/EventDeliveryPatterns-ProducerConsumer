@@ -1,0 +1,5 @@
+kafka:
+  groupId: ${KAFKA_GROUP_ID:default}
+  topic: ${KAFKA_TOPIC:default}
+  consumers: ${KAFKA_CONSUMER_COUNT:3}
+  bootstrapAddress: ${KAFKA_BOOTSTRAP_ADDRESS:localhost:9092}

@@ -1,0 +1,6 @@
+kafka:
+  replicas: ${KAFKA_REPLICAS:1}
+  partitions: ${KAFKA_PARTITIONS:10}
+  topic: ${KAFKA_TOPIC:default}
+  bootstrapAddress: ${KAFKA_BOOTSTRAP_ADDRESS:localhost:9092}
+
